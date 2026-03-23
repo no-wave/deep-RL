@@ -13,10 +13,15 @@
 이 책은 Deep Reinforcement Learning의 핵심 알고리즘을 이론과 구현 모두에서 체계적으로 다룬다. 단순히 알고리즘을 설명하는 것을 넘어, 각각의 방법론이 왜 등장했고, 어떤 문제를 해결하며, 이전 방법과 어떻게 연결되는지를 함께 짚는다. 코드는 PyTorch와 Gymnasium을 기반으로 작성되었으며, 독자가 직접 실행하고 실험할 수 있도록 설계했다.
 
 책은 네 개의 파트로 구성된다.
+
 Part 0은 이 책 전체의 출발점이다. Deep RL을 본격적으로 시작하기 전에 반드시 짚어야 할 수학적 기초와 환경 설정을 다룬다. 강화학습의 핵심 개념이 이미 익숙하다면 빠르게 훑고 넘어가도 좋고, 처음 접하는 독자라면 충분히 시간을 들여 읽기를 권한다. 이후의 모든 내용이 이 위에 세워진다.
+
 Part 1: Advanced Deep Q-Networks에서는 DQN의 구조적 한계를 짚고, 이를 교정하기 위해 등장한 다섯 가지 핵심 개선 기법을 하나씩 탐구한다. Double DQN, Dueling DQN, Prioritized Experience Replay, Noisy DQN, N-step DQN, 그리고 Distributional DQN까지, 각각의 방법이 DQN의 서로 다른 약점을 어떻게 공략하는지를 살펴본다.
+
 Part 2: Advanced DQN to SAC에서는 이산 행동 공간의 울타리를 넘어 연속 행동 공간으로 확장한다. NAF, DDPG, TD3, SAC를 거치며 Actor-Critic 구조가 어떻게 진화했는지를 따라가고, Hindsight Experience Replay로 희박한 보상 환경에서의 학습 전략도 다룬다.
+
 Part 3: Policy Gradients에서는 정책 최적화의 핵심 문제인 "업데이트 보폭"을 정면으로 다룬다. Trust Region Methods의 이론적 토대 위에서 PPO와 TRPO가 어떻게 안정성을 확보하는지, GAE가 어드밴티지 추정을 어떻게 개선하는지를 살펴본다.
+
 Part 4: World Models에서는 패러다임의 전환을 다룬다. 에이전트가 환경과 직접 부딪히는 대신, 환경이 어떻게 작동하는지를 내부적으로 학습하고 상상 속에서 계획하는 방법이다. VAE, MDN-RNN, RSSM의 핵심 이론을 쌓고, 직접 구현하며, DreamerV3와 Cosmos WFM 같은 최신 연구까지 조망한다.
 
 이 책은 총 3편으로 기획된 AI Master: 강화학습 시리즈의 두 번째 편이다. 1편이 클래식 강화학습의 기초를 다졌다면, 이 책은 그 위에 딥러닝을 결합한 현대적 알고리즘들을 체계적으로 쌓아 올린다. 3편에서는 LLM 에이전트와 강화학습의 접점을 다룰 예정이다.
@@ -39,17 +44,11 @@ Part 0. Deep RL 들어가기 전에
 Part 1. Advanced Deep Q-Networks
 
 Chapter 01: Deep Q-Networks 돌아보기
-
 Chapter 02: Double Deep-Q Networks
-
 Chapter 03: Dueling Deep Q-Networks
-
 Chapter 04: Prioritized Experience Replay (PER)
-
 Chapter 05: Noisy Deep Q-Networks
-
 Chapter 06: N-step Deep Q-Networks
-
 Chapter 07: Distributional Deep Q-Networks
 
 Part 2. Advanced DQN to SAC

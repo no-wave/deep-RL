@@ -43,13 +43,13 @@ Part 0. Deep RL 들어가기 전에
 
 Part 1. Advanced Deep Q-Networks
 
-Chapter 01: Deep Q-Networks 돌아보기
-Chapter 02: Double Deep-Q Networks
-Chapter 03: Dueling Deep Q-Networks
-Chapter 04: Prioritized Experience Replay (PER)
-Chapter 05: Noisy Deep Q-Networks
-Chapter 06: N-step Deep Q-Networks
-Chapter 07: Distributional Deep Q-Networks
+- Chapter 01: Deep Q-Networks 돌아보기
+- Chapter 02: Double Deep-Q Networks
+- Chapter 03: Dueling Deep Q-Networks
+- Chapter 04: Prioritized Experience Replay (PER)
+- Chapter 05: Noisy Deep Q-Networks
+- Chapter 06: N-step Deep Q-Networks
+- Chapter 07: Distributional Deep Q-Networks
 
 Part 2. Advanced DQN to SAC
 

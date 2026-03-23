@@ -53,35 +53,25 @@ Part 1. Advanced Deep Q-Networks
 
 Part 2. Advanced DQN to SAC
 
-Chapter 08: 정규화 어드밴티지 함수 (NAF)
-
-Chapter 09: DDPG (Deep Deterministic Policy Gradient)
-
-Chapter 10: TD3 - Twin Delayed DDPG
-
-Chapter 11: Soft Actor-Critic (SAC)
-
-Chapter 12: Hindsight Experience Replay (HER)
+- Chapter 08: 정규화 어드밴티지 함수 (NAF)
+- Chapter 09: DDPG (Deep Deterministic Policy Gradient)
+- Chapter 10: TD3 - Twin Delayed DDPG
+- Chapter 11: Soft Actor-Critic (SAC)
+- Chapter 12: Hindsight Experience Replay (HER)
 
 Part 3. Advanced RL: Policy Gradients 방법론
 
-Chapter 13: 정책 그래디언트 최적화: Trust Region Methods
-
-Chapter 14: 근접 정책 최적화 (PPO)
-
-Chapter 15: 일반화 어드밴티지 추정 (GAE)
-
-Chapter 16: 신뢰 영역 정책 최적화 (TRPO)
+- Chapter 13: 정책 그래디언트 최적화: Trust Region Methods
+- Chapter 14: 근접 정책 최적화 (PPO)
+- Chapter 15: 일반화 어드밴티지 추정 (GAE)
+- Chapter 16: 신뢰 영역 정책 최적화 (TRPO)
 
 Part 4. World Models
 
-Chapter 17: World Models 월드 모델 개요
-
-Chapter 18: World Models 핵심 이론
-
-Chapter 19: World Models PyTorch 구현
-
-Chapter 20: World Model 최신 연구
+- Chapter 17: World Models 월드 모델 개요
+- Chapter 18: World Models 핵심 이론
+- Chapter 19: World Models PyTorch 구현
+- Chapter 20: World Model 최신 연구
 
 결론: 마무리하며
 
